@@ -1,0 +1,19 @@
+{
+  "name": "ts-cryptotradesimu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warun S.",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ws": "^8.2.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "ws": "^8.2.3"
+  }
+}
